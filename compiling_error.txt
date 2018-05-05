@@ -1,0 +1,18 @@
+C:\Users\batman\Desktop\cs221-lab0\home\a\a1q1b\cs221\pa3\twoDtree.cpp: In member function 'twoDtree::Node* twoDtree::buildTree(stats&, std::pair<int, int>, std::pair<int, int>)':
+C:\Users\batman\Desktop\cs221-lab0\home\a\a1q1b\cs221\pa3\twoDtree.cpp:74:14: warning: overflow in implicit constant conversion [-Woverflow]
+   long min = 9000000000000000;
+              ^~~~~~~~~~~~~~~~
+C:\Users\batman\AppData\Local\Temp\ccClfkAU.o: In function `ZN8twoDtreeC2ERN9cs221util3PNGE':
+C:/Users/batman/Desktop/cs221-lab0/home/a/a1q1b/cs221/pa3/twoDtree.cpp:39: undefined reference to `cs221util::PNG::height() const'
+C:/Users/batman/Desktop/cs221-lab0/home/a/a1q1b/cs221/pa3/twoDtree.cpp:40: undefined reference to `cs221util::PNG::width() const'
+C:/Users/batman/Desktop/cs221-lab0/home/a/a1q1b/cs221/pa3/twoDtree.cpp:41: undefined reference to `stats::stats(cs221util::PNG&)'
+C:/Users/batman/Desktop/cs221-lab0/home/a/a1q1b/cs221/pa3/twoDtree.cpp:42: undefined reference to `cs221util::PNG::height() const'
+C:/Users/batman/Desktop/cs221-lab0/home/a/a1q1b/cs221/pa3/twoDtree.cpp:42: undefined reference to `cs221util::PNG::width() const'
+C:\Users\batman\AppData\Local\Temp\ccClfkAU.o: In function `ZN8twoDtree9buildTreeER5statsSt4pairIiiES3_':
+C:/Users/batman/Desktop/cs221-lab0/home/a/a1q1b/cs221/pa3/twoDtree.cpp:48: undefined reference to `stats::getAvg(std::pair<int, int>, std::pair<int, int>)'
+C:/Users/batman/Desktop/cs221-lab0/home/a/a1q1b/cs221/pa3/twoDtree.cpp:81: undefined reference to `stats::getScore(std::pair<int, int>, std::pair<int, int>)'
+C:/Users/batman/Desktop/cs221-lab0/home/a/a1q1b/cs221/pa3/twoDtree.cpp:81: undefined reference to `stats::getScore(std::pair<int, int>, std::pair<int, int>)'
+C:/Users/batman/Desktop/cs221-lab0/home/a/a1q1b/cs221/pa3/twoDtree.cpp:91: undefined reference to `stats::getScore(std::pair<int, int>, std::pair<int, int>)'
+C:/Users/batman/Desktop/cs221-lab0/home/a/a1q1b/cs221/pa3/twoDtree.cpp:91: undefined reference to `stats::getScore(std::pair<int, int>, std::pair<int, int>)'
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a(main.o):(.text.startup+0xa0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
